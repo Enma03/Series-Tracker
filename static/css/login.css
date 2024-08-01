@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212; /* Negro */
+    font-family: Arial, sans-serif;
+    color: #FFFFFF; /* Blanco */
+}
+
+.contenedor-login {
+    background-color: #1E1E1E; /* Gris oscuro */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.contenedor-login input[type="text"],
+.contenedor-login input[type="password"] {
+    width: 95%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contenedor-login button {
+    width: 101%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #f60; /* Naranja */
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contenedor-login button:hover {
+    background-color: #f60; /* Naranja oscuro */
+}
+
+.new-user {
+    margin-top: 1rem;
+}
+
+.new-user a {
+    color: #f60; /* Naranja */
+    text-decoration: none;
+}
+
+.new-user a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f60; /* Naranja */
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    color: #121212; /* Negro */
+}

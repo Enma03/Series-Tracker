@@ -1,0 +1,203 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 100px; /* Ajusta este valor según sea necesario */
+}
+
+header {
+    background-color: #f60;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    list-style: none;
+}
+
+header nav ul li a:visited {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: #fff;
+    color: #f60;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f60;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.image-container {
+    position: relative;
+    width: 300px; /* Ancho de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y otros elementos */
+}
+
+.image-container img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semi-transparente */
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff; /* Color del texto */
+    text-align: center;
+}
+
+.image-caption h3, .image-caption p {
+    margin: 0;
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.series-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+.serie-info {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.serie-info img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-link:hover {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* SERIES */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #fff; /* Línea del container */
+    border-radius: 10px; /* Borde redondeado */
+    overflow: hidden; /* Para que los bordes no sobresalgan de la imagen */
+}
+
+.serie-info {
+    width: calc(50% - 10px); /* El 10px es el espacio entre la imagen y el texto */
+}
+
+h1, h2, h3 {
+    color: #f60;
+}
+
+.serie-info p {
+    margin: 10px 0;
+}
+
+.serie-image {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo de la imagen */
+    margin-bottom: 20px;
+}
+
+.serie-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(80px);
+}
+
+.follow-button {
+    background-color: #fff;
+    color: #f60;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.alert.success {
+    background-color: #4caf50; /* Verde */
+}
+
+.alert.info {
+    background-color: #2196f3; /* Azul */
+}
+
+.alert.warning {
+    background-color: #ff9800; /* Naranja */
+}
+
+.alert.error {
+    background-color: #f44336; /* Rojo */
+}
+
