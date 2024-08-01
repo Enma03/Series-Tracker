@@ -97,11 +97,12 @@ La aplicación utiliza Supabase como backend para la base de datos. Las tablas p
 
 **Página de inicio:**
 
-![1722524281977](image/README/1722524281977.png)
+![image](https://github.com/user-attachments/assets/27ca3641-d765-4ea3-9341-60c152cb09de)
+
 
 **Pagina de inicio, luego de iniciar sección:**
 
-![1722524351723](image/README/1722524351723.png)
+![image](https://github.com/user-attachments/assets/c485fda6-774a-44f6-8ef6-d8ceaa50fa68)
 
 ## Licencia
 
