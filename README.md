@@ -1,4 +1,4 @@
-# Series Trakers
+# Series Tracker
 
 Esta aplicación web permite a los usuarios ver y seguir series de anime. La aplicación está construida con Flask y utiliza Supabase como backend para la base de datos.
 
